@@ -1,0 +1,21 @@
+name: Basic HTML/CSS Workflow
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Verify files exist
+        run: |
+          echo "Listado de archivos del proyecto:"
+          ls -R .
+
+      - name: Workflow completed successfully
+        run: echo "Workflow ejecutado sin errores."
