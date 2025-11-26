@@ -1,2 +1,2 @@
 # git-personal-salvador
-Cambio para hacer commit y crear mención
+Cambio para hacer commit y crear mención a issue
